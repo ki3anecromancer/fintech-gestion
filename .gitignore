@@ -1,0 +1,28 @@
+# Archivos y carpetas a ignorar
+
+# Dependencias (si usas npm)
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones personales de editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos del sistema operativo
+desktop.ini
+
+# Carpetas de despliegue temporal
+/dist/
+/build/
+
+# Ignorar por seguridad
+.env
